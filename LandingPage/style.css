@@ -1,19 +1,36 @@
-header{
-background-color: #1f2937;
+body{
 
 }
-h1,a,h2,p{
-    color: aliceblue;
-}
-.navigate{
-display: flex;
-justify-content: space-between;
-align-items: baseline;
-}
-.intro{
-    padding: 7em 0;
+.header{
+    border: 2px solid red;
+    background-color: #1F2937;
+    font-family: 'Roboto', sans-serif;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2em;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
 }
+.header-logo-container{
+    border: 2px solid red;
+    display: flex;
+    
+}
+.header-logo{
+    
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+.header-link-container{
+    border: 2px solid red;
+    display: flex;
+    gap: 1.5em;
+}
+.header-link{
+    border: 2px solid red;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 100;
+    
+}
+
