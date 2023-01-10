@@ -12,6 +12,7 @@ margin: 0;
     
 }
 .secondary-text{
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #E5E7EB;
     font-weight: lighter;
@@ -193,4 +194,11 @@ button{
     color: #E5E7EB;
     font-size: 15px;
     font-weight: 700;
+}
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
 }
