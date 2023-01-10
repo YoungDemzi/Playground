@@ -1,0 +1,19 @@
+header{
+background-color: #1f2937;
+
+}
+h1,a,h2,p{
+    color: aliceblue;
+}
+.navigate{
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+}
+.intro{
+    padding: 7em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
