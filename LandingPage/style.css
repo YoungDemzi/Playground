@@ -1,36 +1,86 @@
 body{
 
 }
+/* ------HEADER START------*/
 .header{
-    border: 2px solid red;
+    
     background-color: #1F2937;
     font-family: 'Roboto', sans-serif;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-.header-logo-container{
-    border: 2px solid red;
-    display: flex;
+    padding-left: 15em;
+    padding-right: 15em;
     
 }
-.header-logo{
+.secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: lighter;
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1em;
+
+}
+.left-logo{
     
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 700;
+    text-decoration: none;
 }
-.header-link-container{
-    border: 2px solid red;
+.nav-right{
+    
     display: flex;
     gap: 1.5em;
 }
-.header-link{
-    border: 2px solid red;
-    font-size: 18px;
-    color: #E5E7EB;
-    font-weight: 100;
+.welcome{
+    
+    padding-top: 7em;
+    padding-bottom: 7em;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    
+    
+     
+}
+.welcome-left{
+    
+    width: 50%;
     
 }
-
+.welcome-right{
+    
+    background-color: #6d747d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;   
+}
+h1{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.welcome-description{
+    
+}
+.welcome-left-button{
+border: none;
+background-color: #3882F6;
+border-radius: 10px;
+width: 25%;
+margin-top: 1em;
+}
+.button-text{
+    margin:0.5em;
+    font-family: 'Roboto', sans-serif;
+    color: #F9FAF8;
+    font-size:18px;
+    font-weight: bold;
+    
+}
+/* ------HEADER END------*/
